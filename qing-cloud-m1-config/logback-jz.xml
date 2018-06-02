@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration PUBLIC xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback https://git.io/logback.xsd">
+<!DOCTYPE configuration PUBLIC >
 <configuration>
 	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 	
