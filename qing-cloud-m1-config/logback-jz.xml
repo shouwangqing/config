@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration>
-<configuration scan="true">
+<!DOCTYPE configuration PUBLIC xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback https://git.io/logback.xsd">
+<configuration>
 	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 	
 	<property name="ENCODER_PATTERN" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{25} %M %L - %msg%n" />
