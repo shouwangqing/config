@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration>
-<configuration>
+<configuration scan="true">
 	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 	
 	<property name="ENCODER_PATTERN" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{25} %M %L - %msg%n" />
