@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
 	<property name="ENCODER_PATTERN" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{25} %M %L - %msg%n" />
 	<springProperty scope="context" name="LOG-NAME" source="spring.application.name" />
 
